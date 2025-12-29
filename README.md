@@ -64,20 +64,21 @@ This mirrors how real-world marketing tags and programmatic platforms work.
   }
 }
 
-Running the Project Locally
-1. Install dependencies
+##Running the Project Locally
+1. Install dependencies\
+---
 
 npm install express cors
 
-2. Start backend server
-
+##2. Start backend server
+---
 node server.js
 
-Server runs at:
-
+##Server runs at:
+---
 http://localhost:3000
 
-3. Open frontend
+##3. Open frontend
 
 Open index.html using VS Code Live Server
 
@@ -106,3 +107,4 @@ Real-world ad-tech troubleshooting scenarios
 Author
 
 Farana Naz Tultul
+---
