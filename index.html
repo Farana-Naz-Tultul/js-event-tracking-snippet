@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tracking Demo</title>
+</head>
+<body>
+
+  <h1>Tracking Demo</h1>
+
+  <!-- Buttons for click tracking -->
+  <button data-track="signup_button">Sign Up</button>
+  <button data-track="learn_more">Learn More</button>
+  
+  <!-- Optional form for submit tracking -->
+  <form id="leadForm">
+    <input type="email" name="email" placeholder="Enter email" required />
+    <button type="submit" data-track="lead_submit">Submit</button>
+  </form>
+
+
+  <script src="tracker.js"></script>
+</body>
+</html>
